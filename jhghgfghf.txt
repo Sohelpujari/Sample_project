@@ -8,3 +8,15 @@ git push -u origin main
 git remote add origin https://github.com/Sohelpujari/Sample_project.git
 git branch -M main
 git push -u origin main
+
+
+
+Push the code
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Sohelpujari/Sample_project.git
+
+git config --global user.email "sohelpujari@gmail.com"
+git config user.name 'Sohelpujari'
+git push -u origin main
