@@ -7,72 +7,55 @@
     <title>Veriables</title>
     <style>
         :root {
-            --color: blueviolet;
-            --seccolor: rgb(148, 244, 199);
-            --defpad : 40px;
+            --color: rgb(181, 109, 250);
+            --seccolor: rgba(255, 255, 255, 0.71);
+            --background: rgba(223, 172, 241, 0.9);
+            --defpad : 10px;
             
         }
-
-        * {
+        *{
             padding: 0;
             margin: 0;
         }
-
-        ul {
+        ul{
             display: flex;
         }
-
-        ul {
-            list-style-type: none;
-
-
+        body{
+            background-color: var(--background);
         }
 
-        ul>li {
-            background-color: blue;
-            padding: var(--defpad);
-            margin: 1px;
-        }
-
-        ul :first-child {
+        nav{
             background-color: var(--color);
         }
-
-        ul fi{
-            background-color: aqua;
+        
+        ul li{
+            list-style:none;
+            padding: var(--defpad);
+            font-weight:bolder;
+            color: var(--seccolor)
+            
         }
 
-        .lorem{
-            padding-top: 15px;
-            margin: 2px;
-            background-color: var(--seccolor);
+        ul li a{
+            color: var(--seccolor)
+            
         }
+
+
     </style>
 </head>
 
 <body>
-    <div>
-        <ul>
-            <li>Home</li>
-            <li>Name</li>
-            <li>Contact</li>
-        </ul>
-    </div>
-    <div class="lorem">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas dignissimos, vitae incidunt asperiores adipisci
-        porro inventore vel rem rerum facere aspernatur ipsa. Accusamus blanditiis voluptates soluta earum eaque atque
-        necessitatibus consectetur animi, autem veniam et exercitationem, nisi odio voluptate unde minima officiis?
-        Reprehenderit aspernatur repellat vero illo dignissimos id expedita impedit mollitia, atque ratione nihil
-        distinctio minus exercitationem ipsum. Aliquam, saepe alias nihil cupiditate iste eveniet commodi atque ipsa, ea
-        officia autem non officiis, odio neque. Cum dicta quis suscipit numquam qui. Sunt officiis perspiciatis iure
-        recusandae in deleniti provident, ratione cumque omnis voluptate veniam. Quam impedit illum error pariatur sed
-        suscipit cumque ab, ullam corporis officiis atque nemo assumenda mollitia asperiores dicta dolor. Praesentium
-        ullam recusandae tenetur consectetur enim eaque ipsa illo.
-    </div>
-
-    <div>
-
-    </div>
+     <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">Name</a></li>
+                <li><a href="/">Contact</a></li>
+                <li><a href="/">Help</a></li>
+            </ul>
+        </nav>
+     </header>
 </body>
 
 </html>
